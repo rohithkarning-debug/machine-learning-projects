@@ -1,44 +1,48 @@
 # Machine Learning Projects
 
-This repository contains multiple Machine Learning projects built using Python and Scikit-learn.
+This repository contains a collection of Machine Learning projects built using Python and Scikit-learn.
 
-The goal of this repository is to document my journey in Machine Learning by building beginner-to-intermediate level projects using different algorithms, datasets, and evaluation techniques.
+The goal of this repository is to document my Machine Learning journey through hands-on projects covering different algorithms, datasets, preprocessing techniques, evaluation metrics, and visualization methods.
 
-Each project contains:
-- Dataset
-- Jupyter Notebook
-- Model Training
-- Evaluation Metrics
-- Visualizations
-- Detailed README
+Each project includes:
+
+* Dataset
+* Jupyter Notebook
+* Data Preprocessing
+* Model Training
+* Performance Evaluation
+* Visualizations
+* Detailed Project Documentation
 
 ---
 
 # Projects
 
-| Project | Algorithm | Description |
-|---|---|---|
-| Heart Disease Prediction | Logistic Regression | Predicting the likelihood of heart disease using patient medical attributes |
-| Iris Species Classification | K-Nearest Neighbors (K-NN) | Classifying iris flower species based on petal and sepal measurements |
-| Banknote Authentication | Support Vector Machine (SVM) | Classifying banknotes as genuine or fake using statistical image features |
+| Project                     | Algorithm                               | Description                                                                                     |
+| --------------------------- | --------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| Heart Disease Prediction    | Logistic Regression                     | Predicting the likelihood of heart disease using patient medical attributes                     |
+| Iris Species Classification | K-Nearest Neighbors (K-NN)              | Classifying iris flower species based on petal and sepal measurements                           |
+| Banknote Authentication     | Support Vector Machine (SVM)            | Classifying banknotes as genuine or counterfeit using statistical image features                |
+| Pulsar Star Detection       | RBF Kernel Support Vector Machine (SVM) | Classifying radio telescope signals as pulsars or non-pulsars using the HTRU2 astronomy dataset |
 
 ---
 
 # Technologies Used
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- Jupyter Notebook / Google Colab
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-Learn
+* Jupyter Notebook
+* Google Colab
 
 ---
 
 # Repository Structure
 
-```bash
+```text
 machine-learning-projects/
 │
 ├── heart-disease-prediction/
@@ -47,6 +51,8 @@ machine-learning-projects/
 │
 ├── banknote-authentication-svm/
 │
+├── pulsar-star-detection-rbf-svm/
+│
 └── README.md
 ```
 
@@ -54,28 +60,46 @@ machine-learning-projects/
 
 # Learning Goals
 
-This repository is focused on learning and implementing:
-- Supervised Machine Learning algorithms
-- Data preprocessing techniques
-- Feature scaling
-- Model evaluation metrics
-- Data visualization
-- Classification problems
-- Real-world dataset handling
+This repository focuses on learning and implementing:
+
+* Supervised Machine Learning
+* Data Preprocessing
+* Feature Engineering
+* Feature Scaling
+* Classification Algorithms
+* Model Evaluation Metrics
+* Data Visualization
+* Dimensionality Reduction
+* Real-World Dataset Handling
+
+---
+
+# Algorithms Covered
+
+* Logistic Regression
+* K-Nearest Neighbors (K-NN)
+* Support Vector Machines (SVM)
+* Kernel Support Vector Machines (RBF Kernel)
+
+More algorithms will be added as the repository grows.
 
 ---
 
 # Future Projects
 
-More projects using different Machine Learning algorithms will be added over time, including:
-- Decision Trees
-- Random Forest
-- Naive Bayes
-- K-Means Clustering
-- Deep Learning Basics
+Planned projects include:
+
+* Decision Trees
+* Random Forests
+* Naive Bayes
+* Gradient Boosting
+* K-Means Clustering
+* Principal Component Analysis (PCA)
+* Neural Networks
+* Deep Learning Fundamentals
 
 ---
 
 # Author
 
-Rohith Karning
+**Rohith Karning**
