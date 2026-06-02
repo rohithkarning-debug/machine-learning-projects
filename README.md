@@ -18,13 +18,14 @@ Each project includes:
 
 # Projects
 
-| Project                      | Algorithm                               | Description                                                                                                                         |
-| ---------------------------- | --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| Heart Disease Prediction     | Logistic Regression                     | Predicting the likelihood of heart disease using patient medical attributes                                                         |
-| Iris Species Classification  | K-Nearest Neighbors (K-NN)              | Classifying iris flower species based on petal and sepal measurements                                                               |
-| Banknote Authentication      | Support Vector Machine (SVM)            | Classifying banknotes as genuine or counterfeit using statistical image features                                                    |
-| Pulsar Star Detection        | RBF Kernel Support Vector Machine (SVM) | Classifying radio telescope signals as pulsars or non-pulsars using the HTRU2 dataset                                               |
-| Mushroom Toxicity Prediction | Naive Bayes                             | Predicting whether a mushroom is edible or poisonous using physical characteristics from the UCI Mushroom Dataset (91.43% Accuracy) |
+| Project                      | Algorithm                               | Description                                                                                                                                 |
+| ---------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| Heart Disease Prediction     | Logistic Regression                     | Predicting the likelihood of heart disease using patient medical attributes                                                                 |
+| Iris Species Classification  | K-Nearest Neighbors (K-NN)              | Classifying iris flower species based on petal and sepal measurements                                                                       |
+| Banknote Authentication      | Support Vector Machine (SVM)            | Classifying banknotes as genuine or counterfeit using statistical image features                                                            |
+| Pulsar Star Detection        | RBF Kernel Support Vector Machine (SVM) | Classifying radio telescope signals as pulsars or non-pulsars using the HTRU2 dataset                                                       |
+| Mushroom Toxicity Prediction | Naive Bayes                             | Predicting whether a mushroom is edible or poisonous using physical characteristics from the UCI Mushroom Dataset (91.43% Accuracy)         |
+| Loan Approval Prediction     | Random Forest Classification            | Predicting loan approval decisions using applicant information such as income, credit history, education, and loan amount (80.52% Accuracy) |
 
 ---
 
@@ -56,6 +57,8 @@ machine-learning-projects/
 │
 ├── mushroom-toxicity-prediction-naive-bayes/
 │
+├── loan-approval-prediction-random-forest/
+│
 └── README.md
 ```
 
@@ -86,6 +89,7 @@ This repository focuses on learning and implementing:
 * Support Vector Machines (SVM)
 * Kernel Support Vector Machines (RBF Kernel)
 * Naive Bayes
+* Random Forest Classification
 
 ---
 
@@ -98,6 +102,7 @@ This repository focuses on learning and implementing:
 | Support Vector Machines | ✅         |
 | Kernel SVM              | ✅         |
 | Naive Bayes             | ✅         |
+| Random Forest           | ✅         |
 
 ---
 
@@ -105,8 +110,6 @@ This repository focuses on learning and implementing:
 
 Planned projects include:
 
-* Decision Trees
-* Random Forests
 * Gradient Boosting
 * XGBoost
 * K-Means Clustering
