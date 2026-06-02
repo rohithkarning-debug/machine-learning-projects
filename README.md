@@ -105,7 +105,6 @@ This repository focuses on learning and implementing:
 
 Planned projects include:
 
-* Decision Trees
 * Random Forests
 * Gradient Boosting
 * XGBoost
