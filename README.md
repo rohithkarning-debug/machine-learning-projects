@@ -18,14 +18,15 @@ Each project includes:
 
 # Projects
 
-| Project                      | Algorithm                               | Description                                                                                                                                 |
-| ---------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| Heart Disease Prediction     | Logistic Regression                     | Predicting the likelihood of heart disease using patient medical attributes                                                                 |
-| Iris Species Classification  | K-Nearest Neighbors (K-NN)              | Classifying iris flower species based on petal and sepal measurements                                                                       |
-| Banknote Authentication      | Support Vector Machine (SVM)            | Classifying banknotes as genuine or counterfeit using statistical image features                                                            |
-| Pulsar Star Detection        | RBF Kernel Support Vector Machine (SVM) | Classifying radio telescope signals as pulsars or non-pulsars using the HTRU2 dataset                                                       |
-| Mushroom Toxicity Prediction | Naive Bayes                             | Predicting whether a mushroom is edible or poisonous using physical characteristics from the UCI Mushroom Dataset (91.43% Accuracy)         |
-| Loan Approval Prediction     | Random Forest Classification            | Predicting loan approval decisions using applicant information such as income, credit history, education, and loan amount (80.52% Accuracy) |
+| Project                         | Algorithm                               | Description                                                                                                                           |
+| ------------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| Bike Share Regression Benchmark | Multiple Regression Models              | Benchmarking and comparing multiple regression algorithms for predicting hourly bike rental demand using the UCI Bike Sharing Dataset |
+| Heart Disease Prediction        | Logistic Regression                     | Predicting the likelihood of heart disease using patient medical attributes                                                           |
+| Iris Species Classification     | K-Nearest Neighbors (K-NN)              | Classifying iris flower species based on petal and sepal measurements                                                                 |
+| Banknote Authentication         | Support Vector Machine (SVM)            | Classifying banknotes as genuine or counterfeit using statistical image features                                                      |
+| Pulsar Star Detection           | RBF Kernel Support Vector Machine (SVM) | Classifying radio telescope signals as pulsars or non-pulsars using the HTRU2 dataset                                                 |
+| Mushroom Toxicity Prediction    | Naive Bayes                             | Predicting whether a mushroom is edible or poisonous using physical characteristics from the UCI Mushroom Dataset                     |
+| Loan Approval Prediction        | Random Forest Classification            | Predicting loan approval decisions using applicant information such as income, credit history, education, and loan amount             |
 
 ---
 
@@ -46,6 +47,8 @@ Each project includes:
 
 ```text
 machine-learning-projects/
+│
+├── bike-share-regression-benchmark/
 │
 ├── heart-disease-prediction/
 │
@@ -69,10 +72,11 @@ machine-learning-projects/
 This repository focuses on learning and implementing:
 
 * Supervised Machine Learning
+* Regression Analysis
+* Classification Algorithms
 * Data Preprocessing
 * Feature Engineering
 * Feature Scaling
-* Classification Algorithms
 * Model Evaluation Metrics
 * Data Visualization
 * Dimensionality Reduction
@@ -81,6 +85,12 @@ This repository focuses on learning and implementing:
 ---
 
 # Algorithms Covered
+
+### Regression
+
+* Linear Regression
+* Multiple Linear Regression
+* Regression Model Benchmarking
 
 ### Classification
 
@@ -97,6 +107,7 @@ This repository focuses on learning and implementing:
 
 | Category                | Completed |
 | ----------------------- | --------- |
+| Regression Benchmarking | ✅         |
 | Logistic Regression     | ✅         |
 | K-Nearest Neighbors     | ✅         |
 | Support Vector Machines | ✅         |
@@ -110,6 +121,9 @@ This repository focuses on learning and implementing:
 
 Planned projects include:
 
+* Polynomial Regression
+* Decision Tree Classification
+* Decision Tree Regression
 * Gradient Boosting
 * XGBoost
 * K-Means Clustering
