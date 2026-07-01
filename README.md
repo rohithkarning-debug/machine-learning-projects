@@ -28,6 +28,7 @@ Each project includes:
 | Mushroom Toxicity Prediction    | Naive Bayes                             | Predicting whether a mushroom is edible or poisonous using physical characteristics from the UCI Mushroom Dataset                     |
 | Loan Approval Prediction        | Random Forest Classification            | Predicting loan approval decisions using applicant information such as income, credit history, education, and loan amount             |
 | Customer Segmentation           | K-Means Clustering & Hierarchical Clustering | Segmenting customers using RFM (Recency, Frequency, Monetary) analysis with K-Means and Hierarchical Clustering, including PCA visualization and cluster analysis |
+| Market Basket Analysis          | Apriori Association Rule Learning       | Discovering product purchase patterns using the Apriori algorithm to generate association rules using Support, Confidence, and Lift from grocery store transactions |
 
 ---
 
@@ -65,6 +66,8 @@ machine-learning-projects/
 │
 ├── customer-segmentation-clustering/
 │
+├── apriori-market-basket-analysis/
+│
 └── README.md
 ```
 
@@ -79,6 +82,8 @@ This repository focuses on learning and implementing:
 * Classification Algorithms
 * Unsupervised Machine Learning
 * Clustering Algorithms
+* Association Rule Learning
+* Market Basket Analysis
 * Data Preprocessing
 * Feature Engineering
 * Feature Scaling
@@ -113,22 +118,30 @@ This repository focuses on learning and implementing:
 * Hierarchical Clustering
 * Principal Component Analysis (PCA)
 
+### Association Rule Learning
+
+* Apriori Algorithm
+* Support
+* Confidence
+* Lift
+
 ---
 
 # Current Progress
 
-| Category                | Completed |
+| Category | Completed |
 | ----------------------- | --------- |
-| Regression Benchmarking | ✅         |
-| Logistic Regression     | ✅         |
-| K-Nearest Neighbors     | ✅         |
-| Support Vector Machines | ✅         |
-| Kernel SVM              | ✅         |
-| Naive Bayes             | ✅         |
-| Random Forest           | ✅         |
-| K-Means Clustering      | ✅         |
-| Hierarchical Clustering | ✅         |
+| Regression Benchmarking | ✅ |
+| Logistic Regression | ✅ |
+| K-Nearest Neighbors | ✅ |
+| Support Vector Machines | ✅ |
+| Kernel SVM | ✅ |
+| Naive Bayes | ✅ |
+| Random Forest | ✅ |
+| K-Means Clustering | ✅ |
+| Hierarchical Clustering | ✅ |
 | Principal Component Analysis (PCA) | ✅ |
+| Association Rule Learning (Apriori) | ✅ |
 
 ---
 
