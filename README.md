@@ -27,6 +27,7 @@ Each project includes:
 | Pulsar Star Detection           | RBF Kernel Support Vector Machine (SVM) | Classifying radio telescope signals as pulsars or non-pulsars using the HTRU2 dataset                                                 |
 | Mushroom Toxicity Prediction    | Naive Bayes                             | Predicting whether a mushroom is edible or poisonous using physical characteristics from the UCI Mushroom Dataset                     |
 | Loan Approval Prediction        | Random Forest Classification            | Predicting loan approval decisions using applicant information such as income, credit history, education, and loan amount             |
+| Customer Segmentation           | K-Means Clustering & Hierarchical Clustering | Segmenting customers using RFM (Recency, Frequency, Monetary) analysis with K-Means and Hierarchical Clustering, including PCA visualization and cluster analysis |
 
 ---
 
@@ -62,6 +63,8 @@ machine-learning-projects/
 │
 ├── loan-approval-prediction-random-forest/
 │
+├── customer-segmentation-clustering/
+│
 └── README.md
 ```
 
@@ -74,12 +77,15 @@ This repository focuses on learning and implementing:
 * Supervised Machine Learning
 * Regression Analysis
 * Classification Algorithms
+* Unsupervised Machine Learning
+* Clustering Algorithms
 * Data Preprocessing
 * Feature Engineering
 * Feature Scaling
 * Model Evaluation Metrics
 * Data Visualization
 * Dimensionality Reduction
+* Customer Segmentation
 * Real-World Dataset Handling
 
 ---
@@ -101,6 +107,12 @@ This repository focuses on learning and implementing:
 * Naive Bayes
 * Random Forest Classification
 
+### Unsupervised Learning
+
+* K-Means Clustering
+* Hierarchical Clustering
+* Principal Component Analysis (PCA)
+
 ---
 
 # Current Progress
@@ -114,6 +126,9 @@ This repository focuses on learning and implementing:
 | Kernel SVM              | ✅         |
 | Naive Bayes             | ✅         |
 | Random Forest           | ✅         |
+| K-Means Clustering      | ✅         |
+| Hierarchical Clustering | ✅         |
+| Principal Component Analysis (PCA) | ✅ |
 
 ---
 
@@ -122,13 +137,8 @@ This repository focuses on learning and implementing:
 Planned projects include:
 
 * Polynomial Regression
-* Decision Tree Classification
-* Decision Tree Regression
 * Gradient Boosting
 * XGBoost
-* K-Means Clustering
-* Hierarchical Clustering
-* Principal Component Analysis (PCA)
 * Linear Discriminant Analysis (LDA)
 * Artificial Neural Networks
 * Deep Learning Fundamentals
